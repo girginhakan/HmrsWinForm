@@ -51,8 +51,8 @@ namespace HmrsDeneme
             dgwHastaListele.DataSource = list.ToList();
 
             context.SaveChanges();
-            
-            
+
+
         }
 
         private void btnDonMenu_Click(object sender, EventArgs e)
@@ -74,14 +74,14 @@ namespace HmrsDeneme
 
             MessageBox.Show("Seçilen hastamız veritabanından silinmiştir.");
 
-           
+
             context.SaveChanges();
 
         }
 
         private void dgwHastaListele_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+
 
         }
 
@@ -145,6 +145,11 @@ namespace HmrsDeneme
         private void lblMinimalize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+
+        }
+
+        private void dgwHastaListele_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

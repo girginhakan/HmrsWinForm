@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
+  <!-- 
     Microsoft ResX Schema 
-
+    
     Version 2.0
-
-    The primary goals of this format is to allow a simple XML format
-    that is mostly human readable. The generation and parsing of the
-    various data types are done through the TypeConverter classes
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
     associated with the data types.
-
+    
     Example:
-
+    
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-
-    There are any number of "resheader" rows that contain simple
+                
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
-
-    Each data row contains a name, and value. The row also contains a
-    type or mimetype. Type corresponds to a .NET class that support
-    text/value conversion through the TypeConverter architecture.
-    Classes that don't support this are serialized and stored with the
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
-
-    The mimetype is used for serialized objects, and tells the
-    ResXResourceReader how to depersist the object. This is currently not
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
-
-    Note - application/x-microsoft.net.object.binary.base64 is the format
-    that the ResXResourceWriter will generate, however the reader can
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
     read any of the formats listed below.
-
+    
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Target" xml:space="preserve">
+    <value>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</value>
+  </data>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
+  </data>
 </root>

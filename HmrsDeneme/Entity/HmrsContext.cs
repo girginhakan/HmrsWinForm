@@ -10,10 +10,7 @@ namespace HmrsDeneme.Entity
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Patient> Patients { get; set; }
 
-        public HmrsContext() : base() { }
+        public HmrsContext() : base("HmrsContext") { }
 
-
-
-    
     }
 }
